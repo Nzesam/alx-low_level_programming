@@ -1,19 +1,20 @@
- #include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
+* main - Prints the alphabet.
+*
+* Return: Always 0 (success)
+*/
 
 int main(void)
 {
-int lowerCase = 'a';
-while (lowerCase <= 'z')
-{	
-putChar(lowerCase);
-lowerCase += 1;
-}
-putChar ('\n');
-return(0);
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i - 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putChar('\n');
+	return (0);
 }
